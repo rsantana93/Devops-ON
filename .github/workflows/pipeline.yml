@@ -54,7 +54,7 @@ jobs:
         run: mvn --batch-mode deploy
         env:
 
-          GITHUB_TOKEN: ${{ secrets.TOKEN_FLOW_GIT }}   
+          GITHUB_TOKEN: ${{ secrets.TOKEN_PKG }}   
    
   deploy-STG:
     runs-on: ubuntu-latest
