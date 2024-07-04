@@ -91,7 +91,7 @@ jobs:
         run: mvn --batch-mode deploy
         env:
 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
+          GITHUB_TOKEN: ${{ secrets.TOKEN_FLOW_GIT }}   
    
   deploy-STG:
     runs-on: ubuntu-latest
